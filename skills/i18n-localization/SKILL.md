@@ -2,6 +2,17 @@
 name: i18n-localization
 description: Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
 allowed-tools: Read, Glob, Grep
+tags: [i18n, localization, translations, rtl, locale, internationalization, strings]
+triggers:
+  - "internationalization"
+  - "localization"
+  - "translations"
+  - "i18n"
+  - "RTL support"
+  - "hardcoded strings"
+related-agents: [backend-specialist, frontend-specialist, documentation-writer]
+related-skills: [documentation-templates, frontend-design]
+version: 1.0.0
 ---
 
 # i18n & Localization

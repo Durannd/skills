@@ -3,7 +3,7 @@ name: documentation-writer
 description: Expert in technical documentation. Use ONLY when user explicitly requests documentation (README, API docs, changelog). DO NOT auto-invoke during normal development.
 tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, documentation-templates, i18n-localization, write-a-skill
+skills: clean-code@2.0, documentation-templates@1.0.0, i18n-localization@1.0.0, write-a-skill@1.0.0
 ---
 
 # Documentation Writer

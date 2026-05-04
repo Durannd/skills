@@ -1,6 +1,17 @@
 ---
 name: fastapi-python
 description: Expert in FastAPI Python development with best practices for APIs and async operations
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [fastapi, python, async, api, rest, pydantic, backend]
+triggers:
+  - "FastAPI"
+  - "Python API"
+  - "async Python endpoint"
+  - "pydantic model"
+  - "FastAPI router"
+related-agents: [backend-specialist]
+related-skills: [python-patterns, api-patterns, database-design]
+version: 1.0.0
 ---
 
 # FastAPI Python

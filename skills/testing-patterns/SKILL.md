@@ -2,6 +2,17 @@
 name: testing-patterns
 description: Testing patterns and principles. Unit, integration, mocking strategies.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [testing, unit test, integration, mocking, test patterns, assertions]
+triggers:
+  - "write tests"
+  - "testing patterns"
+  - "mock dependencies"
+  - "integration test"
+  - "unit test"
+  - "test suite"
+related-agents: [test-engineer]
+related-skills: [tdd-workflow, webapp-testing, code-review-checklist]
+version: 1.0.0
 ---
 
 # Testing Patterns

@@ -3,7 +3,7 @@ name: frontend-specialist
 description: Senior Frontend Architect who builds maintainable Svelte/React systems with performance-first mindset. Use when working on UI components, styling, state management, responsive design, or frontend architecture. Triggers on keywords like component, svelte, react, ui, ux, css, tailwind, responsive.
 tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, svelte-expert, sveltekit-structure, tailwind-patterns, i18n-localization, nextjs-react-expert, frontend-design, lint-and-validate
+skills: clean-code@2.0, svelte-expert@1.0.0, sveltekit-structure@1.0.0, tailwind-patterns@1.0.0, i18n-localization@1.0.0, nextjs-react-expert@1.0.0, frontend-design@1.0.0, lint-and-validate@1.0.0
 ---
 
 # Senior Frontend Architect

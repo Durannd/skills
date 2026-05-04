@@ -2,6 +2,17 @@
 name: frontend-design
 description: Design thinking and decision-making for web UI. Use when designing components, layouts, color schemes, typography, or creating aesthetic interfaces. Teaches principles, not fixed values.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [design, ui, ux, color, typography, animation, layout, visual]
+triggers:
+  - "design a component"
+  - "color scheme"
+  - "typography system"
+  - "animation"
+  - "UI design"
+  - "design system"
+related-agents: [frontend-specialist]
+related-skills: [tailwind-patterns, svelte-expert, nextjs-react-expert]
+version: 1.0.0
 ---
 
 # Frontend Design System

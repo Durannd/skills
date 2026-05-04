@@ -2,6 +2,16 @@
 name: deployment-procedures
 description: Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.
 allowed-tools: Read, Glob, Grep, Bash
+tags: [deploy, deployment, CI/CD, rollback, production, release, server]
+triggers:
+  - "deploy to production"
+  - "deployment workflow"
+  - "rollback strategy"
+  - "CI/CD pipeline"
+  - "release process"
+related-agents: [devops-engineer]
+related-skills: [vulnerability-scanner, lint-and-validate]
+version: 1.0.0
 ---
 
 # Deployment Procedures

@@ -2,6 +2,17 @@
 name: lint-and-validate
 description: Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.
 allowed-tools: Read, Glob, Grep, Bash
+tags: [lint, validate, static analysis, format, types, eslint, tsc, quality]
+triggers:
+  - "lint the code"
+  - "validate"
+  - "format code"
+  - "type check"
+  - "static analysis"
+  - "run linter"
+related-agents: [backend-specialist, frontend-specialist, orchestrator, test-engineer]
+related-skills: [clean-code, testing-patterns]
+version: 1.0.0
 ---
 
 # Lint and Validate Skill

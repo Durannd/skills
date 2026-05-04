@@ -2,6 +2,18 @@
 name: svelte-expert
 description: Svelte 5 and SvelteKit performance optimization and best practices. Use when building Svelte components, using Runes ($state, $derived, $effect), optimizing SvelteKit load functions, or implementing performance-critical frontend logic.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [svelte, svelte5, runes, state, derived, effect, frontend, reactive]
+triggers:
+  - "Svelte component"
+  - "Runes"
+  - "$state"
+  - "$derived"
+  - "$effect"
+  - "SvelteKit load function"
+  - "Svelte 5"
+related-agents: [frontend-specialist]
+related-skills: [sveltekit-structure, tailwind-patterns, frontend-design]
+version: 1.0.0
 ---
 
 # Svelte 5 & SvelteKit Expert

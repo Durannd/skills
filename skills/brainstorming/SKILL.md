@@ -2,6 +2,16 @@
 name: brainstorming
 description: Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.
 allowed-tools: Read, Glob, Grep
+tags: [brainstorm, socratic, requirements, clarify, explore, questions]
+triggers:
+  - "brainstorm"
+  - "explore options"
+  - "I'm not sure what I want"
+  - "help me think through"
+  - "before we build"
+related-agents: [orchestrator, product-owner, project-planner, explorer-agent]
+related-skills: [plan-writing, grill-me, behavioral-modes]
+version: 1.0.0
 ---
 
 # Brainstorming & Communication Protocol

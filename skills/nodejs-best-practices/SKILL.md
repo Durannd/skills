@@ -2,6 +2,16 @@
 name: nodejs-best-practices
 description: Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [nodejs, node, express, async, javascript, framework, server]
+triggers:
+  - "Node.js server"
+  - "Express framework"
+  - "async Node"
+  - "Node.js architecture"
+  - "Node backend"
+related-agents: [backend-specialist]
+related-skills: [api-patterns, database-design, clean-code]
+version: 1.0.0
 ---
 
 # Node.js Best Practices

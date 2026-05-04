@@ -2,6 +2,17 @@
 name: performance-profiling
 description: Performance profiling principles. Measurement, analysis, and optimization techniques.
 allowed-tools: Read, Glob, Grep, Bash
+tags: [performance, profiling, optimization, memory, cpu, benchmark, speed]
+triggers:
+  - "profile performance"
+  - "memory leak"
+  - "CPU optimization"
+  - "benchmark"
+  - "performance bottleneck"
+  - "slow app"
+related-agents: [performance-optimizer]
+related-skills: [nextjs-react-expert, systematic-debugging, webapp-testing]
+version: 1.0.0
 ---
 
 # Performance Profiling

@@ -2,6 +2,17 @@
 name: tailwind-patterns
 description: Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [tailwind, css, utility, design tokens, container queries, v4, styling]
+triggers:
+  - "Tailwind CSS"
+  - "utility classes"
+  - "design tokens"
+  - "container queries"
+  - "Tailwind v4"
+  - "style component"
+related-agents: [frontend-specialist]
+related-skills: [frontend-design, svelte-expert, nextjs-react-expert]
+version: 1.0.0
 ---
 
 # Tailwind CSS Patterns (v4 - 2025)

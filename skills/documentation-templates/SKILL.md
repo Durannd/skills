@@ -2,6 +2,16 @@
 name: documentation-templates
 description: Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.
 allowed-tools: Read, Glob, Grep
+tags: [documentation, readme, API docs, changelog, comments, technical writing]
+triggers:
+  - "write documentation"
+  - "create README"
+  - "API documentation"
+  - "changelog"
+  - "document this code"
+related-agents: [documentation-writer]
+related-skills: [i18n-localization, write-a-skill]
+version: 1.0.0
 ---
 
 # Documentation Templates

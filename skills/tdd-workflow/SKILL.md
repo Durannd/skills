@@ -2,6 +2,16 @@
 name: tdd-workflow
 description: Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [tdd, test-driven, red-green-refactor, unit test, test first]
+triggers:
+  - "TDD"
+  - "test-driven development"
+  - "write tests first"
+  - "red-green-refactor"
+  - "test before code"
+related-agents: [test-engineer]
+related-skills: [testing-patterns, webapp-testing, clean-code]
+version: 1.0.0
 ---
 
 # TDD Workflow

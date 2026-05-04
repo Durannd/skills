@@ -2,6 +2,17 @@
 name: systematic-debugging
 description: 4-phase systematic debugging methodology with root cause analysis and evidence-based verification. Use when debugging complex issues.
 allowed-tools: Read, Glob, Grep
+tags: [debugging, root cause, investigation, bug, 4-phase, crash]
+triggers:
+  - "systematic debugging"
+  - "root cause analysis"
+  - "debug this"
+  - "investigate bug"
+  - "not working"
+  - "error trace"
+related-agents: [debugger, explorer-agent]
+related-skills: [plan-writing, improve-codebase-architecture, performance-profiling]
+version: 1.0.0
 ---
 
 # Systematic Debugging

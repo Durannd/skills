@@ -3,6 +3,18 @@ name: sveltekit-structure
 # IMPORTANT: Keep description on ONE line for agent compatibility
 # prettier-ignore
 description: "SvelteKit structure guidance. Use for routing, layouts, error handling, SSR, or svelte:boundary. Covers file naming, nested layouts, error boundaries, pending UI, and hydration."
+allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [sveltekit, routing, layouts, ssr, error boundary, hydration, svelte]
+triggers:
+  - "SvelteKit routing"
+  - "SvelteKit layout"
+  - "error boundary"
+  - "SSR"
+  - "svelte:boundary"
+  - "+page.svelte"
+related-agents: [frontend-specialist]
+related-skills: [svelte-expert, tailwind-patterns, i18n-localization]
+version: 1.0.0
 ---
 
 # SvelteKit Structure

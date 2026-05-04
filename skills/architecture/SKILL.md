@@ -2,6 +2,16 @@
 name: architecture
 description: Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.
 allowed-tools: Read, Glob, Grep
+tags: [architecture, adr, system design, trade-off, design decision, patterns]
+triggers:
+  - "architecture decision"
+  - "system design"
+  - "ADR"
+  - "trade-off analysis"
+  - "design pattern selection"
+related-agents: [orchestrator, explorer-agent]
+related-skills: [plan-writing, improve-codebase-architecture, brainstorming]
+version: 1.0.0
 ---
 
 # Architecture Decision Framework

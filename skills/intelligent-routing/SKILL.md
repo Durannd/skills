@@ -2,6 +2,16 @@
 name: intelligent-routing
 description: Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.
 version: 1.0.0
+allowed-tools: Read, Glob, Grep
+tags: [routing, agent selection, auto-routing, keywords, dispatch, zero-command]
+triggers:
+  - "auto-select agent"
+  - "intelligent routing"
+  - "detect skill"
+  - "automatic routing"
+  - "route to specialist"
+related-agents: [orchestrator]
+related-skills: [behavioral-modes, find-skills, parallel-agents]
 ---
 
 # Intelligent Agent Routing

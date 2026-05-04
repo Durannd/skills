@@ -7,6 +7,18 @@ description: Generates, optimizes, and validates Cypher 25 queries for Neo4j 202
   Does NOT handle driver migration or API changes — use neo4j-migration-skill.
   Does NOT cover DB administration or server ops — use neo4j-cli-tools-skill.
 compatibility: Neo4j >= 2025.01 (safe baseline); Cypher 25
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [neo4j, cypher, graph query, match, merge, fulltext, vector search]
+triggers:
+  - "Neo4j query"
+  - "Cypher query"
+  - "graph pattern matching"
+  - "Neo4j"
+  - "vector search Neo4j"
+  - "Cypher 25"
+related-agents: [backend-specialist, database-architect]
+related-skills: [graph-database-expert, database-design]
+version: 1.0.0
 ---
 
 ## When to Use

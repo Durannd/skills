@@ -20,7 +20,6 @@ A modular AI agent framework composed of **skills**, **agents**, **workflows**, 
 - [Workflows (Slash Commands)](#workflows-slash-commands)
 - [Scripts](#scripts)
 - [Usage Tips](#usage-tips)
-- [Improvements & Roadmap](#improvements--roadmap)
 
 ---
 
@@ -279,70 +278,8 @@ The LLM will drop filler words while keeping full technical accuracy.
 
 ---
 
-## Improvements & Roadmap
+## Getting Started
 
-The following improvements would make the framework more harmonious and easier for LLMs to navigate automatically.
+Copy [`BOOTSTRAP.md`](BOOTSTRAP.md) into your project as `GEMINI.md` or `CLAUDE.md` and fill in the `<PLACEHOLDERS>` to wire the framework into your AI assistant in seconds.
 
-### 1. Standardize SKILL.md frontmatter with `tags`
-
-Add a `tags` field to every skill's frontmatter so routing can use structured keyword matching instead of relying solely on the prose `description`:
-
-```yaml
----
-name: svelte-expert
-description: "..."
-tags: [svelte, sveltekit, runes, frontend, component, state]
----
-```
-
-This allows a routing layer to do `tags.includes(detectedKeyword)` before parsing descriptions.
-
-### 2. Add a `SKILLS_INDEX.json` manifest
-
-Create a machine-readable index at the repository root so LLMs and tooling can load a compact skills map without reading every `SKILL.md`:
-
-```json
-{
-  "skills": [
-    {
-      "name": "svelte-expert",
-      "path": "skills/svelte-expert/SKILL.md",
-      "tags": ["svelte", "sveltekit", "frontend"],
-      "agents": ["frontend-specialist"]
-    }
-  ]
-}
-```
-
-### 3. Add `triggers` examples to every SKILL.md
-
-Each skill should include explicit trigger phrases so the LLM has concrete pattern-matching examples:
-
-```yaml
-triggers:
-  - "build a svelte component"
-  - "refactor with runes"
-  - "SvelteKit load function"
-```
-
-### 4. Add `related` cross-references between skills and agents
-
-Link skills to the agents that use them and vice versa, making it easier to navigate the dependency graph:
-
-```yaml
-# In SKILL.md
-related-agents: [frontend-specialist, orchestrator]
-related-skills: [tailwind-patterns, sveltekit-structure]
-```
-
-### 5. Standardize `allowed-tools` across all skills
-
-Several skills are missing the `allowed-tools` field (e.g. `fastapi-python`, `caveman`). Standardizing this ensures agents never accidentally use disallowed tools when a skill is loaded.
-
-### 6. Add a `GEMINI.md` / `CLAUDE.md` bootstrap template
-
-Include a ready-to-use `GEMINI.md` (or `CLAUDE.md`) template that wires `intelligent-routing` as TIER 0 and loads the correct baseline skills, so new projects can onboard the entire framework with one copy-paste.
-
-### 7. Version pin skills loaded by agents
-
-Agent files list skills without versions (e.g. `skills: clean-code, svelte-expert`). Adding optional version pinning (`clean-code@2.0`) would prevent silent breaking changes when skills are updated.
+The [`SKILLS_INDEX.json`](SKILLS_INDEX.json) at the repository root is a machine-readable manifest of all skills — use it for programmatic routing, tooling, or to quickly survey available capabilities without opening individual `SKILL.md` files.
