@@ -1,6 +1,17 @@
 ---
 name: find-skills
 description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+allowed-tools: Read, Glob, Grep, Bash
+tags: [find skills, discover, install, npx skills, ecosystem, search]
+triggers:
+  - "find a skill"
+  - "is there a skill for"
+  - "install skill"
+  - "search for skill"
+  - "how do I do X"
+related-agents: [orchestrator]
+related-skills: [write-a-skill, intelligent-routing]
+version: 1.0.0
 ---
 
 # Find Skills

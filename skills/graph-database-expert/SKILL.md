@@ -2,6 +2,17 @@
 name: graph-database-expert
 description: "Expert in graph database design and development with deep knowledge of graph modeling, traversals, query optimization, and relationship patterns. Specializes in SurrealDB but applies generic graph database concepts. Use when designing graph schemas, optimizing graph queries, implementing complex relationships, or building graph-based applications."
 model: sonnet
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [graph database, surrealdb, graph modeling, traversal, relationships, nodes, edges]
+triggers:
+  - "graph database"
+  - "SurrealDB"
+  - "graph schema"
+  - "graph query optimization"
+  - "model relationships as graph"
+related-agents: [backend-specialist, database-architect]
+related-skills: [database-design, neo4j-cypher-skill]
+version: 1.0.0
 ---
 
 # Graph Database Expert

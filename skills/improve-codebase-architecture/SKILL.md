@@ -1,6 +1,17 @@
 ---
 name: improve-codebase-architecture
 description: Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.
+allowed-tools: Read, Glob, Grep
+tags: [refactor, architecture, codebase, modules, testability, ai-navigable, deepening]
+triggers:
+  - "improve architecture"
+  - "refactor codebase"
+  - "find refactoring opportunities"
+  - "make code testable"
+  - "AI navigable"
+related-agents: [orchestrator, database-architect, project-planner]
+related-skills: [architecture, clean-code, systematic-debugging]
+version: 1.0.0
 ---
 
 # Improve Codebase Architecture

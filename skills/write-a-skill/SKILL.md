@@ -1,6 +1,17 @@
 ---
 name: write-a-skill
 description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.
+allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [create skill, skill template, skill structure, skill.md, new skill]
+triggers:
+  - "create a skill"
+  - "write a skill"
+  - "build a skill"
+  - "new skill"
+  - "skill package"
+related-agents: [orchestrator, documentation-writer]
+related-skills: [documentation-templates, find-skills]
+version: 1.0.0
 ---
 
 # Writing Skills

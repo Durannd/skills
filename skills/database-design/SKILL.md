@@ -2,6 +2,16 @@
 name: database-design
 description: Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [database, schema, indexing, ORM, migration, SQL, serverless DB]
+triggers:
+  - "design a database schema"
+  - "database migration"
+  - "indexing strategy"
+  - "ORM selection"
+  - "database modeling"
+related-agents: [backend-specialist, database-architect]
+related-skills: [graph-database-expert, neo4j-cypher-skill, improve-codebase-architecture]
+version: 1.0.0
 ---
 
 # Database Design

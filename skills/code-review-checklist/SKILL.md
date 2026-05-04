@@ -2,6 +2,16 @@
 name: code-review-checklist
 description: Code review guidelines covering code quality, security, and best practices.
 allowed-tools: Read, Glob, Grep
+tags: [code review, checklist, quality, security, PR, pull request]
+triggers:
+  - "review this code"
+  - "code review"
+  - "PR review"
+  - "check my code"
+  - "is this code good"
+related-agents: [test-engineer, code-archaeologist]
+related-skills: [clean-code, vulnerability-scanner, testing-patterns]
+version: 1.0.0
 ---
 
 # Code Review Checklist

@@ -4,6 +4,15 @@ description: Pragmatic coding standards - concise, direct, no over-engineering, 
 allowed-tools: Read, Write, Edit
 version: 2.0
 priority: CRITICAL
+tags: [clean code, standards, best practices, code quality, DRY, SRP, refactor]
+triggers:
+  - "clean up code"
+  - "code standards"
+  - "best practices"
+  - "code quality review"
+  - "refactor for clarity"
+related-agents: [backend-specialist, frontend-specialist, orchestrator, test-engineer, debugger]
+related-skills: [code-review-checklist, lint-and-validate]
 ---
 
 # Clean Code - Pragmatic AI Coding Standards

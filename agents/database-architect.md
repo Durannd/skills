@@ -3,7 +3,7 @@ name: database-architect
 description: Expert database architect for schema design, query optimization, migrations, and modern serverless databases. Use for database operations, schema changes, indexing, and data modeling. Triggers on database, sql, schema, migration, query, postgres, index, table.
 tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, database-design, graph-database-expert, neo4j-cypher-skill, improve-codebase-architecture
+skills: clean-code@2.0, database-design@1.0.0, graph-database-expert@1.0.0, neo4j-cypher-skill@1.0.0, improve-codebase-architecture@1.0.0
 ---
 
 # Database Architect

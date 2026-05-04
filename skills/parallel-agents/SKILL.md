@@ -2,6 +2,16 @@
 name: parallel-agents
 description: Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.
 allowed-tools: Read, Glob, Grep
+tags: [parallel, multi-agent, orchestration, concurrent, coordination, agents]
+triggers:
+  - "run agents in parallel"
+  - "multi-agent"
+  - "orchestrate agents"
+  - "parallel analysis"
+  - "coordinate specialists"
+related-agents: [orchestrator]
+related-skills: [intelligent-routing, behavioral-modes, plan-writing]
+version: 1.0.0
 ---
 
 # Native Parallel Agents

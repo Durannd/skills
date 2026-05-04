@@ -2,6 +2,16 @@
 name: python-patterns
 description: Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [python, patterns, type hints, framework, async, project structure, dataclass]
+triggers:
+  - "Python patterns"
+  - "type hints"
+  - "Python framework"
+  - "Python async"
+  - "Python project structure"
+related-agents: [backend-specialist]
+related-skills: [fastapi-python, clean-code, database-design]
+version: 1.0.0
 ---
 
 # Python Patterns

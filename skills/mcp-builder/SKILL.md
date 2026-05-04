@@ -2,6 +2,16 @@
 name: mcp-builder
 description: MCP (Model Context Protocol) server building principles. Tool design, resource patterns, best practices.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [mcp, model context protocol, tool design, server, integration, protocol]
+triggers:
+  - "build MCP server"
+  - "MCP tool"
+  - "Model Context Protocol"
+  - "MCP integration"
+  - "MCP resource"
+related-agents: [backend-specialist]
+related-skills: [api-patterns, nodejs-best-practices]
+version: 1.0.0
 ---
 
 # MCP Builder

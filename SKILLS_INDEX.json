@@ -1,0 +1,1172 @@
+{
+  "skills": [
+    {
+      "name": "api-patterns",
+      "path": "skills/api-patterns/SKILL.md",
+      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "trpc",
+        "versioning",
+        "pagination",
+        "rate-limiting",
+        "endpoint"
+      ],
+      "triggers": [
+        "design an API",
+        "REST vs GraphQL",
+        "API versioning",
+        "rate limiting",
+        "API documentation",
+        "api endpoint style"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "security-auditor"
+      ],
+      "related-skills": [
+        "nodejs-best-practices",
+        "fastapi-python",
+        "vulnerability-scanner"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "app-builder",
+      "path": "skills/app-builder/SKILL.md",
+      "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+      "tags": [
+        "app",
+        "scaffold",
+        "fullstack",
+        "project",
+        "create",
+        "build",
+        "generator"
+      ],
+      "triggers": [
+        "create an app",
+        "build a new project",
+        "scaffold application",
+        "start new project",
+        "/create"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "project-planner"
+      ],
+      "related-skills": [
+        "plan-writing",
+        "brainstorming",
+        "architecture"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash, Agent",
+      "version": "1.0.0"
+    },
+    {
+      "name": "architecture",
+      "path": "skills/architecture/SKILL.md",
+      "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
+      "tags": [
+        "architecture",
+        "adr",
+        "system design",
+        "trade-off",
+        "design decision",
+        "patterns"
+      ],
+      "triggers": [
+        "architecture decision",
+        "system design",
+        "ADR",
+        "trade-off analysis",
+        "design pattern selection"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "explorer-agent"
+      ],
+      "related-skills": [
+        "plan-writing",
+        "improve-codebase-architecture",
+        "brainstorming"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "behavioral-modes",
+      "path": "skills/behavioral-modes/SKILL.md",
+      "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
+      "tags": [
+        "mode",
+        "brainstorm",
+        "implement",
+        "debug",
+        "review",
+        "teach",
+        "ship",
+        "orchestrate"
+      ],
+      "triggers": [
+        "switch to brainstorm mode",
+        "enter debug mode",
+        "implement mode",
+        "review mode",
+        "teaching mode"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "product-owner"
+      ],
+      "related-skills": [
+        "brainstorming",
+        "plan-writing",
+        "intelligent-routing"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "brainstorming",
+      "path": "skills/brainstorming/SKILL.md",
+      "description": "Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.",
+      "tags": [
+        "brainstorm",
+        "socratic",
+        "requirements",
+        "clarify",
+        "explore",
+        "questions"
+      ],
+      "triggers": [
+        "brainstorm",
+        "explore options",
+        "I'm not sure what I want",
+        "help me think through",
+        "before we build"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "product-owner",
+        "project-planner",
+        "explorer-agent"
+      ],
+      "related-skills": [
+        "plan-writing",
+        "grill-me",
+        "behavioral-modes"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "caveman",
+      "path": "skills/caveman/SKILL.md",
+      "description": ">",
+      "tags": [
+        "caveman",
+        "terse",
+        "brief",
+        "compressed",
+        "tokens",
+        "minimal"
+      ],
+      "triggers": [
+        "caveman mode",
+        "talk like caveman",
+        "less tokens",
+        "be brief",
+        "/caveman",
+        "use caveman"
+      ],
+      "related-agents": [
+        "orchestrator"
+      ],
+      "related-skills": [
+        "behavioral-modes"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "clean-code",
+      "path": "skills/clean-code/SKILL.md",
+      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "tags": [
+        "clean code",
+        "standards",
+        "best practices",
+        "code quality",
+        "DRY",
+        "SRP",
+        "refactor"
+      ],
+      "triggers": [
+        "clean up code",
+        "code standards",
+        "best practices",
+        "code quality review",
+        "refactor for clarity"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "frontend-specialist",
+        "orchestrator",
+        "test-engineer",
+        "debugger"
+      ],
+      "related-skills": [
+        "code-review-checklist",
+        "lint-and-validate"
+      ],
+      "allowed-tools": "Read, Write, Edit",
+      "version": "2.0"
+    },
+    {
+      "name": "code-review-checklist",
+      "path": "skills/code-review-checklist/SKILL.md",
+      "description": "Code review guidelines covering code quality, security, and best practices.",
+      "tags": [
+        "code review",
+        "checklist",
+        "quality",
+        "security",
+        "PR",
+        "pull request"
+      ],
+      "triggers": [
+        "review this code",
+        "code review",
+        "PR review",
+        "check my code",
+        "is this code good"
+      ],
+      "related-agents": [
+        "test-engineer",
+        "code-archaeologist"
+      ],
+      "related-skills": [
+        "clean-code",
+        "vulnerability-scanner",
+        "testing-patterns"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "database-design",
+      "path": "skills/database-design/SKILL.md",
+      "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+      "tags": [
+        "database",
+        "schema",
+        "indexing",
+        "ORM",
+        "migration",
+        "SQL",
+        "serverless DB"
+      ],
+      "triggers": [
+        "design a database schema",
+        "database migration",
+        "indexing strategy",
+        "ORM selection",
+        "database modeling"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "database-architect"
+      ],
+      "related-skills": [
+        "graph-database-expert",
+        "neo4j-cypher-skill",
+        "improve-codebase-architecture"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "deployment-procedures",
+      "path": "skills/deployment-procedures/SKILL.md",
+      "description": "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.",
+      "tags": [
+        "deploy",
+        "deployment",
+        "CI/CD",
+        "rollback",
+        "production",
+        "release",
+        "server"
+      ],
+      "triggers": [
+        "deploy to production",
+        "deployment workflow",
+        "rollback strategy",
+        "CI/CD pipeline",
+        "release process"
+      ],
+      "related-agents": [
+        "devops-engineer"
+      ],
+      "related-skills": [
+        "vulnerability-scanner",
+        "lint-and-validate"
+      ],
+      "allowed-tools": "Read, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "documentation-templates",
+      "path": "skills/documentation-templates/SKILL.md",
+      "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+      "tags": [
+        "documentation",
+        "readme",
+        "API docs",
+        "changelog",
+        "comments",
+        "technical writing"
+      ],
+      "triggers": [
+        "write documentation",
+        "create README",
+        "API documentation",
+        "changelog",
+        "document this code"
+      ],
+      "related-agents": [
+        "documentation-writer"
+      ],
+      "related-skills": [
+        "i18n-localization",
+        "write-a-skill"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "fastapi-python",
+      "path": "skills/fastapi-python/SKILL.md",
+      "description": "Expert in FastAPI Python development with best practices for APIs and async operations",
+      "tags": [
+        "fastapi",
+        "python",
+        "async",
+        "api",
+        "rest",
+        "pydantic",
+        "backend"
+      ],
+      "triggers": [
+        "FastAPI",
+        "Python API",
+        "async Python endpoint",
+        "pydantic model",
+        "FastAPI router"
+      ],
+      "related-agents": [
+        "backend-specialist"
+      ],
+      "related-skills": [
+        "python-patterns",
+        "api-patterns",
+        "database-design"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "find-skills",
+      "path": "skills/find-skills/SKILL.md",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "tags": [
+        "find skills",
+        "discover",
+        "install",
+        "npx skills",
+        "ecosystem",
+        "search"
+      ],
+      "triggers": [
+        "find a skill",
+        "is there a skill for",
+        "install skill",
+        "search for skill",
+        "how do I do X"
+      ],
+      "related-agents": [
+        "orchestrator"
+      ],
+      "related-skills": [
+        "write-a-skill",
+        "intelligent-routing"
+      ],
+      "allowed-tools": "Read, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "frontend-design",
+      "path": "skills/frontend-design/SKILL.md",
+      "description": "Design thinking and decision-making for web UI. Use when designing components, layouts, color schemes, typography, or creating aesthetic interfaces. Teaches principles, not fixed values.",
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "color",
+        "typography",
+        "animation",
+        "layout",
+        "visual"
+      ],
+      "triggers": [
+        "design a component",
+        "color scheme",
+        "typography system",
+        "animation",
+        "UI design",
+        "design system"
+      ],
+      "related-agents": [
+        "frontend-specialist"
+      ],
+      "related-skills": [
+        "tailwind-patterns",
+        "svelte-expert",
+        "nextjs-react-expert"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "graph-database-expert",
+      "path": "skills/graph-database-expert/SKILL.md",
+      "description": "Expert in graph database design and development with deep knowledge of graph modeling, traversals, query optimization, and relationship patterns. Specializes in SurrealDB but applies generic graph database concepts. Use when designing graph schemas, optimizing graph queries, implementing complex relationships, or building graph-based applications.",
+      "tags": [
+        "graph database",
+        "surrealdb",
+        "graph modeling",
+        "traversal",
+        "relationships",
+        "nodes",
+        "edges"
+      ],
+      "triggers": [
+        "graph database",
+        "SurrealDB",
+        "graph schema",
+        "graph query optimization",
+        "model relationships as graph"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "database-architect"
+      ],
+      "related-skills": [
+        "database-design",
+        "neo4j-cypher-skill"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "grill-me",
+      "path": "skills/grill-me/SKILL.md",
+      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
+      "tags": [
+        "grill",
+        "interview",
+        "stress-test",
+        "decision tree",
+        "design review",
+        "challenge"
+      ],
+      "triggers": [
+        "grill me",
+        "stress test my plan",
+        "challenge my design",
+        "interview me about",
+        "ask hard questions"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "product-owner",
+        "project-planner"
+      ],
+      "related-skills": [
+        "brainstorming",
+        "plan-writing",
+        "architecture"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "i18n-localization",
+      "path": "skills/i18n-localization/SKILL.md",
+      "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+      "tags": [
+        "i18n",
+        "localization",
+        "translations",
+        "rtl",
+        "locale",
+        "internationalization",
+        "strings"
+      ],
+      "triggers": [
+        "internationalization",
+        "localization",
+        "translations",
+        "i18n",
+        "RTL support",
+        "hardcoded strings"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "frontend-specialist",
+        "documentation-writer"
+      ],
+      "related-skills": [
+        "documentation-templates",
+        "frontend-design"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "path": "skills/improve-codebase-architecture/SKILL.md",
+      "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
+      "tags": [
+        "refactor",
+        "architecture",
+        "codebase",
+        "modules",
+        "testability",
+        "ai-navigable",
+        "deepening"
+      ],
+      "triggers": [
+        "improve architecture",
+        "refactor codebase",
+        "find refactoring opportunities",
+        "make code testable",
+        "AI navigable"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "database-architect",
+        "project-planner"
+      ],
+      "related-skills": [
+        "architecture",
+        "clean-code",
+        "systematic-debugging"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "intelligent-routing",
+      "path": "skills/intelligent-routing/SKILL.md",
+      "description": "Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.",
+      "tags": [
+        "routing",
+        "agent selection",
+        "auto-routing",
+        "keywords",
+        "dispatch",
+        "zero-command"
+      ],
+      "triggers": [
+        "auto-select agent",
+        "intelligent routing",
+        "detect skill",
+        "automatic routing",
+        "route to specialist"
+      ],
+      "related-agents": [
+        "orchestrator"
+      ],
+      "related-skills": [
+        "behavioral-modes",
+        "find-skills",
+        "parallel-agents"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "lint-and-validate",
+      "path": "skills/lint-and-validate/SKILL.md",
+      "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.",
+      "tags": [
+        "lint",
+        "validate",
+        "static analysis",
+        "format",
+        "types",
+        "eslint",
+        "tsc",
+        "quality"
+      ],
+      "triggers": [
+        "lint the code",
+        "validate",
+        "format code",
+        "type check",
+        "static analysis",
+        "run linter"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "frontend-specialist",
+        "orchestrator",
+        "test-engineer"
+      ],
+      "related-skills": [
+        "clean-code",
+        "testing-patterns"
+      ],
+      "allowed-tools": "Read, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "mcp-builder",
+      "path": "skills/mcp-builder/SKILL.md",
+      "description": "MCP (Model Context Protocol) server building principles. Tool design, resource patterns, best practices.",
+      "tags": [
+        "mcp",
+        "model context protocol",
+        "tool design",
+        "server",
+        "integration",
+        "protocol"
+      ],
+      "triggers": [
+        "build MCP server",
+        "MCP tool",
+        "Model Context Protocol",
+        "MCP integration",
+        "MCP resource"
+      ],
+      "related-agents": [
+        "backend-specialist"
+      ],
+      "related-skills": [
+        "api-patterns",
+        "nodejs-best-practices"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "neo4j-cypher-skill",
+      "path": "skills/neo4j-cypher-skill/SKILL.md",
+      "description": "Generates, optimizes, and validates Cypher 25 queries for Neo4j 2025.x and 2026.x.",
+      "tags": [
+        "neo4j",
+        "cypher",
+        "graph query",
+        "match",
+        "merge",
+        "fulltext",
+        "vector search"
+      ],
+      "triggers": [
+        "Neo4j query",
+        "Cypher query",
+        "graph pattern matching",
+        "Neo4j",
+        "vector search Neo4j",
+        "Cypher 25"
+      ],
+      "related-agents": [
+        "backend-specialist",
+        "database-architect"
+      ],
+      "related-skills": [
+        "graph-database-expert",
+        "database-design"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "react-best-practices",
+      "path": "skills/nextjs-react-expert/SKILL.md",
+      "description": "React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations.",
+      "tags": [
+        "nextjs",
+        "react",
+        "performance",
+        "bundle",
+        "waterfall",
+        "server components",
+        "client components"
+      ],
+      "triggers": [
+        "Next.js",
+        "React component",
+        "reduce bundle size",
+        "eliminate waterfall",
+        "server component",
+        "React performance"
+      ],
+      "related-agents": [
+        "frontend-specialist"
+      ],
+      "related-skills": [
+        "tailwind-patterns",
+        "frontend-design",
+        "performance-profiling"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "nodejs-best-practices",
+      "path": "skills/nodejs-best-practices/SKILL.md",
+      "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+      "tags": [
+        "nodejs",
+        "node",
+        "express",
+        "async",
+        "javascript",
+        "framework",
+        "server"
+      ],
+      "triggers": [
+        "Node.js server",
+        "Express framework",
+        "async Node",
+        "Node.js architecture",
+        "Node backend"
+      ],
+      "related-agents": [
+        "backend-specialist"
+      ],
+      "related-skills": [
+        "api-patterns",
+        "database-design",
+        "clean-code"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "parallel-agents",
+      "path": "skills/parallel-agents/SKILL.md",
+      "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+      "tags": [
+        "parallel",
+        "multi-agent",
+        "orchestration",
+        "concurrent",
+        "coordination",
+        "agents"
+      ],
+      "triggers": [
+        "run agents in parallel",
+        "multi-agent",
+        "orchestrate agents",
+        "parallel analysis",
+        "coordinate specialists"
+      ],
+      "related-agents": [
+        "orchestrator"
+      ],
+      "related-skills": [
+        "intelligent-routing",
+        "behavioral-modes",
+        "plan-writing"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "performance-profiling",
+      "path": "skills/performance-profiling/SKILL.md",
+      "description": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
+      "tags": [
+        "performance",
+        "profiling",
+        "optimization",
+        "memory",
+        "cpu",
+        "benchmark",
+        "speed"
+      ],
+      "triggers": [
+        "profile performance",
+        "memory leak",
+        "CPU optimization",
+        "benchmark",
+        "performance bottleneck",
+        "slow app"
+      ],
+      "related-agents": [
+        "performance-optimizer"
+      ],
+      "related-skills": [
+        "nextjs-react-expert",
+        "systematic-debugging",
+        "webapp-testing"
+      ],
+      "allowed-tools": "Read, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "plan-writing",
+      "path": "skills/plan-writing/SKILL.md",
+      "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+      "tags": [
+        "plan",
+        "task breakdown",
+        "dependencies",
+        "verification",
+        "checklist",
+        "roadmap"
+      ],
+      "triggers": [
+        "write a plan",
+        "break down task",
+        "implementation plan",
+        "create checklist",
+        "plan this feature"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "product-owner",
+        "project-planner",
+        "explorer-agent"
+      ],
+      "related-skills": [
+        "brainstorming",
+        "architecture",
+        "grill-me"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "python-patterns",
+      "path": "skills/python-patterns/SKILL.md",
+      "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+      "tags": [
+        "python",
+        "patterns",
+        "type hints",
+        "framework",
+        "async",
+        "project structure",
+        "dataclass"
+      ],
+      "triggers": [
+        "Python patterns",
+        "type hints",
+        "Python framework",
+        "Python async",
+        "Python project structure"
+      ],
+      "related-agents": [
+        "backend-specialist"
+      ],
+      "related-skills": [
+        "fastapi-python",
+        "clean-code",
+        "database-design"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "svelte-expert",
+      "path": "skills/svelte-expert/SKILL.md",
+      "description": "Svelte 5 and SvelteKit performance optimization and best practices. Use when building Svelte components, using Runes ($state, $derived, $effect), optimizing SvelteKit load functions, or implementing performance-critical frontend logic.",
+      "tags": [
+        "svelte",
+        "svelte5",
+        "runes",
+        "state",
+        "derived",
+        "effect",
+        "frontend",
+        "reactive"
+      ],
+      "triggers": [
+        "Svelte component",
+        "Runes",
+        "$state",
+        "$derived",
+        "$effect",
+        "SvelteKit load function",
+        "Svelte 5"
+      ],
+      "related-agents": [
+        "frontend-specialist"
+      ],
+      "related-skills": [
+        "sveltekit-structure",
+        "tailwind-patterns",
+        "frontend-design"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "sveltekit-structure",
+      "path": "skills/sveltekit-structure/SKILL.md",
+      "description": "SvelteKit structure guidance. Use for routing, layouts, error handling, SSR, or svelte:boundary. Covers file naming, nested layouts, error boundaries, pending UI, and hydration.",
+      "tags": [
+        "sveltekit",
+        "routing",
+        "layouts",
+        "ssr",
+        "error boundary",
+        "hydration",
+        "svelte"
+      ],
+      "triggers": [
+        "SvelteKit routing",
+        "SvelteKit layout",
+        "error boundary",
+        "SSR",
+        "svelte:boundary",
+        "+page.svelte"
+      ],
+      "related-agents": [
+        "frontend-specialist"
+      ],
+      "related-skills": [
+        "svelte-expert",
+        "tailwind-patterns",
+        "i18n-localization"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "description": "4-phase systematic debugging methodology with root cause analysis and evidence-based verification. Use when debugging complex issues.",
+      "tags": [
+        "debugging",
+        "root cause",
+        "investigation",
+        "bug",
+        "4-phase",
+        "crash"
+      ],
+      "triggers": [
+        "systematic debugging",
+        "root cause analysis",
+        "debug this",
+        "investigate bug",
+        "not working",
+        "error trace"
+      ],
+      "related-agents": [
+        "debugger",
+        "explorer-agent"
+      ],
+      "related-skills": [
+        "plan-writing",
+        "improve-codebase-architecture",
+        "performance-profiling"
+      ],
+      "allowed-tools": "Read, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "tailwind-patterns",
+      "path": "skills/tailwind-patterns/SKILL.md",
+      "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+      "tags": [
+        "tailwind",
+        "css",
+        "utility",
+        "design tokens",
+        "container queries",
+        "v4",
+        "styling"
+      ],
+      "triggers": [
+        "Tailwind CSS",
+        "utility classes",
+        "design tokens",
+        "container queries",
+        "Tailwind v4",
+        "style component"
+      ],
+      "related-agents": [
+        "frontend-specialist"
+      ],
+      "related-skills": [
+        "frontend-design",
+        "svelte-expert",
+        "nextjs-react-expert"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    },
+    {
+      "name": "tdd-workflow",
+      "path": "skills/tdd-workflow/SKILL.md",
+      "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+      "tags": [
+        "tdd",
+        "test-driven",
+        "red-green-refactor",
+        "unit test",
+        "test first"
+      ],
+      "triggers": [
+        "TDD",
+        "test-driven development",
+        "write tests first",
+        "red-green-refactor",
+        "test before code"
+      ],
+      "related-agents": [
+        "test-engineer"
+      ],
+      "related-skills": [
+        "testing-patterns",
+        "webapp-testing",
+        "clean-code"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "testing-patterns",
+      "path": "skills/testing-patterns/SKILL.md",
+      "description": "Testing patterns and principles. Unit, integration, mocking strategies.",
+      "tags": [
+        "testing",
+        "unit test",
+        "integration",
+        "mocking",
+        "test patterns",
+        "assertions"
+      ],
+      "triggers": [
+        "write tests",
+        "testing patterns",
+        "mock dependencies",
+        "integration test",
+        "unit test",
+        "test suite"
+      ],
+      "related-agents": [
+        "test-engineer"
+      ],
+      "related-skills": [
+        "tdd-workflow",
+        "webapp-testing",
+        "code-review-checklist"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "vulnerability-scanner",
+      "path": "skills/vulnerability-scanner/SKILL.md",
+      "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "owasp",
+        "supply chain",
+        "attack surface",
+        "pentest",
+        "xss",
+        "injection"
+      ],
+      "triggers": [
+        "scan for vulnerabilities",
+        "security audit",
+        "OWASP",
+        "supply chain security",
+        "pentest",
+        "security review"
+      ],
+      "related-agents": [
+        "security-auditor"
+      ],
+      "related-skills": [
+        "api-patterns",
+        "code-review-checklist",
+        "deployment-procedures"
+      ],
+      "allowed-tools": "Read, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "webapp-testing",
+      "path": "skills/webapp-testing/SKILL.md",
+      "description": "Web application testing principles. E2E, Playwright, deep audit strategies.",
+      "tags": [
+        "e2e",
+        "playwright",
+        "browser testing",
+        "web testing",
+        "automation",
+        "end-to-end"
+      ],
+      "triggers": [
+        "end-to-end test",
+        "Playwright test",
+        "browser automation",
+        "web testing",
+        "E2E",
+        "deep audit"
+      ],
+      "related-agents": [
+        "test-engineer"
+      ],
+      "related-skills": [
+        "testing-patterns",
+        "tdd-workflow",
+        "performance-profiling"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep, Bash",
+      "version": "1.0.0"
+    },
+    {
+      "name": "write-a-skill",
+      "path": "skills/write-a-skill/SKILL.md",
+      "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
+      "tags": [
+        "create skill",
+        "skill template",
+        "skill structure",
+        "skill.md",
+        "new skill"
+      ],
+      "triggers": [
+        "create a skill",
+        "write a skill",
+        "build a skill",
+        "new skill",
+        "skill package"
+      ],
+      "related-agents": [
+        "orchestrator",
+        "documentation-writer"
+      ],
+      "related-skills": [
+        "documentation-templates",
+        "find-skills"
+      ],
+      "allowed-tools": "Read, Write, Edit, Glob, Grep",
+      "version": "1.0.0"
+    }
+  ]
+}

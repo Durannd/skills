@@ -2,6 +2,17 @@
 name: api-patterns
 description: API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.
 allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [api, rest, graphql, trpc, versioning, pagination, rate-limiting, endpoint]
+triggers:
+  - "design an API"
+  - "REST vs GraphQL"
+  - "API versioning"
+  - "rate limiting"
+  - "API documentation"
+  - "api endpoint style"
+related-agents: [backend-specialist, security-auditor]
+related-skills: [nodejs-best-practices, fastapi-python, vulnerability-scanner]
+version: 1.0.0
 ---
 
 # API Patterns

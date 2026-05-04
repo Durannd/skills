@@ -2,6 +2,17 @@
 name: webapp-testing
 description: Web application testing principles. E2E, Playwright, deep audit strategies.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+tags: [e2e, playwright, browser testing, web testing, automation, end-to-end]
+triggers:
+  - "end-to-end test"
+  - "Playwright test"
+  - "browser automation"
+  - "web testing"
+  - "E2E"
+  - "deep audit"
+related-agents: [test-engineer]
+related-skills: [testing-patterns, tdd-workflow, performance-profiling]
+version: 1.0.0
 ---
 
 # Web App Testing

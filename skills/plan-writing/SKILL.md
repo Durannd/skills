@@ -2,6 +2,16 @@
 name: plan-writing
 description: Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
 allowed-tools: Read, Glob, Grep
+tags: [plan, task breakdown, dependencies, verification, checklist, roadmap]
+triggers:
+  - "write a plan"
+  - "break down task"
+  - "implementation plan"
+  - "create checklist"
+  - "plan this feature"
+related-agents: [orchestrator, product-owner, project-planner, explorer-agent]
+related-skills: [brainstorming, architecture, grill-me]
+version: 1.0.0
 ---
 
 # Plan Writing
