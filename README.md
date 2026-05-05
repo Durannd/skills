@@ -139,6 +139,7 @@ Skills are the building blocks. Each skill lives in its own directory with a `SK
 | [`performance-profiling`](skills/performance-profiling/SKILL.md) | Profiling, measurement, and optimization techniques | Diagnosing performance bottlenecks |
 | [`systematic-debugging`](skills/systematic-debugging/SKILL.md) | 4-phase root cause analysis with evidence-based verification | Complex or production bugs |
 | [`documentation-templates`](skills/documentation-templates/SKILL.md) | README, API docs, code comments, and AI-friendly documentation templates | Writing any technical documentation |
+| [`deep-issue-creation`](skills/deep-issue-creation/SKILL.md) | Agnostic methodology for creating deep, well-structured sprint issues with codebase analysis, business rules, acceptance criteria, and technical notes | Sprint planning and creating detailed GitHub issues for any tech stack |
 
 ---
 

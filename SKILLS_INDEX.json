@@ -1140,6 +1140,40 @@
       "version": "1.0.0"
     },
     {
+      "name": "deep-issue-creation",
+      "path": "skills/deep-issue-creation/SKILL.md",
+      "description": "Agnostic methodology for creating deep and well-structured sprint issues. Codebase analysis, understanding existing patterns, and generating issues with business rules, acceptance criteria, and detailed technical notes. Works on any tech stack (Backend, Frontend, Mobile, etc).",
+      "tags": [
+        "issues",
+        "sprint",
+        "planning",
+        "github",
+        "acceptance criteria",
+        "business rules",
+        "backlog",
+        "project management"
+      ],
+      "triggers": [
+        "create sprint issues",
+        "write github issues",
+        "sprint planning",
+        "create backlog items",
+        "issue decomposition",
+        "write detailed issues"
+      ],
+      "related-agents": [
+        "product-owner",
+        "project-planner"
+      ],
+      "related-skills": [
+        "plan-writing",
+        "brainstorming",
+        "architecture"
+      ],
+      "allowed-tools": "View, Grep, Glob, PowerShell, GitHub CLI",
+      "version": "1.0.0"
+    },
+    {
       "name": "write-a-skill",
       "path": "skills/write-a-skill/SKILL.md",
       "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
